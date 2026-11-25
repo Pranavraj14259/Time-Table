@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSC 205 | Useful Links</title>
+
+    <style>
+        /* ---------- General Page ---------- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eef6fb;
+            color: #243447;
+            line-height: 1.6;
+        }
+
+        /* ---------- Header ---------- */
+        header {
+            background-color: #1565c0;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 34px;
+            margin-bottom: 5px;
+        }
+
+        header h2 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* ---------- Navigation ---------- */
+        nav {
+            background-color: #0d47a1;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        /* ---------- Main Content ---------- */
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 35px auto;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            color: #1565c0;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            color: #52606d;
+        }
+
+        /* ---------- Table Container ---------- */
+        .table-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            overflow-x: auto;
+        }
+
+        /* ---------- Table ---------- */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #cbd5e1;
+            padding: 14px;
+            text-align: center;
+        }
+
+        /* Main Table Heading */
+        .table-heading {
+            background-color: #90caf9;
+            color: #0d2b45;
+            font-size: 18px;
+        }
+
+        /* Column Heading */
+        .column-heading {
+            background-color: #e3f2fd;
+            color: #0d47a1;
+            font-weight: bold;
+        }
+
+        /* Table Rows */
+        tr:nth-child(even) {
+            background-color: #f8fbfd;
+        }
+
+        tr:hover {
+            background-color: #e8f4fd;
+        }
+
+        /* ---------- Links ---------- */
+        td a {
+            color: #00796b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        td a:hover {
+            color: #d84315;
+            text-decoration: underline;
+        }
+
+        /* ---------- Category Cells ---------- */
+        .course {
+            background-color: #fff3cd;
+            color: #7a5a00;
+            font-weight: bold;
+        }
+
+        .learning {
+            background-color: #d9f2e6;
+            color: #17633d;
+            font-weight: bold;
+        }
+
+        /* ---------- Footer ---------- */
+        footer {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 40px;
+        }
+
+        footer h3 {
+            margin-bottom: 8px;
+        }
+
+        footer p {
+            font-size: 14px;
+            opacity: 0.9;
+            margin: 4px 0;
+        }
+
+        footer .creator {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        footer .copyright {
+            margin-top: 12px;
+            font-size: 13px;
+            opacity: 0.75;
+        }
+
+        /* ---------- Responsive Design ---------- */
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            header h2 {
+                font-size: 19px;
+            }
+
+            nav a {
+                display: block;
+                margin: 8px 0;
+            }
+
+            main {
+                width: 95%;
+            }
+
+            th,
+            td {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header>
+
+        <h1>PROJECT</h1>
+
+        <h2>CSC 205 Useful Links</h2>
+
+        <p>
+            Computer Science Learning & Academic Resources
+        </p>
+
+    </header>
+
+    <!-- ================= NAVIGATION ================= -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#resources">Resources</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main id="home">
+
+        <!-- Introduction Section -->
+        <section class="intro">
+
+            <h2>CSC 205 Computer Science Resources</h2>
+
+            <p>
+                Explore useful websites for course information,
+                university information, technical education,
+                programming and professional learning.
+            </p>
+
+        </section>
+
+        <!-- Resources Table -->
+        <section class="table-container" id="resources">
+
+            <table>
+
+                <!-- Table Heading -->
+                <tr class="table-heading">
+                    <th colspan="4">
+                        CSC 205 Useful Resources
+                    </th>
+                </tr>
+
+                <!-- Column Headings -->
+                <tr class="column-heading">
+                    <th>Link 1</th>
+                    <th>Link 2</th>
+                    <th>Link 3</th>
+                    <th>Category</th>
+                </tr>
+
+                <!-- Row 1 -->
+                <tr>
+
+                    <td>
+                        <a href="https://www.shiksha.com/" target="_blank">
+                            Shiksha
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.careers360.com/" target="_blank">
+                            Careers360
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.collegedekho.com/" target="_blank">
+                            CollegeDekho
+                        </a>
+                    </td>
+
+                    <td rowspan="2" class="course">
+                        Course Information
+                    </td>
+
+                </tr>
+
+                <!-- Row 2 -->
+                <tr>
+
+                    <td>
+                        <a href="https://www.ugc.gov.in/" target="_blank">
+                            UGC
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.aicte-india.org/" target="_blank">
+                            AICTE
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.collegedunia.com/" target="_blank">
+                            Collegedunia
+                        </a>
+                    </td>
+
+                </tr>
+
+                <!-- Row 3 -->
+                <tr>
+
+                    <td>
+                        <a href="https://learn.microsoft.com/" target="_blank">
+                            Microsoft Learn
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.netacad.com/" target="_blank">
+                            Cisco Networking Academy
+                        </a>
+                    </td>
+
+                    <td>
+                        <a href="https://www.ibm.com/skillsbuild/" target="_blank">
+                            IBM SkillsBuild
+                        </a>
+                    </td>
+
+                    <td class="learning">
+                        Learning Resources
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="intro" id="about" style="margin-top: 25px;">
+
+            <h2>About CSC 205</h2>
+
+            <p>
+                CSC 205 introduces students to the fundamentals
+                of Computer Science and provides useful resources
+                for academic and technical development.
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <h3>CSC 205 - Introduction to Computer Science</h3>
+
+        <p>
+            Useful academic and learning resources for students.
+        </p>
+
+        <p class="creator">
+            Created by <strong>Pranav Raj</strong>
+        </p>
+
+        <p class="copyright">
+            &copy; 2026 Pranav Raj. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
